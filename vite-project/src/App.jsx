@@ -3,6 +3,6 @@ import './App.css'
 
 export default function App() {
   return (
-    "Hello World"
+    "Hello World!"
   );
 }
