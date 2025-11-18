@@ -1,8 +1,18 @@
-import { useState } from 'react'
-import './App.css'
+import { useState } from "react";
+import "./App.css";
+import Dictionary from "./Dictionary";
+import defineIcon from "./Define.png";
 
 export default function App() {
   return (
-    <img src="./Define.png" className="img-fluid"/>
+    <div className="container">
+      <header>
+        <img src={defineIcon} className="img-fluid" />
+      </header>
+      <main>
+        <Dictionary />
+      </main>
+      <footer className="App-footer">Coded by Jessica Kelly</footer>
+    </div>
   );
 }

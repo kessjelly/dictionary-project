@@ -5,7 +5,18 @@
   text-align: center;
 }
 
+header {
+  text-align: center;
+  margin-top: 20px;
+}
+
 .img-fluid {
   width: 300px;
   height: auto;
+}
+
+.App-footer {
+  margin-top: 3rem;
+  font-size: 0.8rem;
+  color: #888;
 }
