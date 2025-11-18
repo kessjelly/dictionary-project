@@ -20,3 +20,8 @@ header {
   font-size: 0.8rem;
   color: #888;
 }
+
+li {
+  text-align: left;
+  margin-bottom: 0.5rem;
+}

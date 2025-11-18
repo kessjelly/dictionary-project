@@ -1,15 +1,20 @@
+import Synonyms from "./Synonyms";
+
 export default function Meaning({ meaning }) {
   if (!meaning) return null;
 
   return (
     <div className="Meaning">
       <h5>{meaning.partOfSpeech}</h5>
-      <p>{meaning.definition}</p>
+      <p>
+        <strong>Definition:</strong> {meaning.definition}
+      </p>
       {meaning.example && (
         <p>
-          <em>{meaning.example}</em>
+          <strong>Example:</strong> <em>{meaning.example}</em>
         </p>
       )}
+      <Synonyms synonyms={meaning.synonyms}/>
     </div>
   );
 }
