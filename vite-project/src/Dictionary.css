@@ -48,6 +48,27 @@
   margin-bottom: 0;
 }
 
+h2 {
+  font-size: 30px;
+}
+
+h3 {
+  color: #F28785;
+}
+
+.Synonyms {
+  font-size: 0.9rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+h5 {
+  font-size: 18px;
+  color: #e66f61;
+}
+
 @media (max-width: 600px) {
   .Dictionary .SearchArea {
     padding: 15px;

@@ -6,7 +6,7 @@ export default function Results({ results }) {
       <>
         <div className="ResultsSection">
           <h2>{results.word}</h2>
-          <h4>{results.phonetic}</h4>
+          <h3>{results.phonetic}</h3>
         </div>
 
         {results.meanings.map((meaning, index) =>
