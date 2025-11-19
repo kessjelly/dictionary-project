@@ -3,7 +3,7 @@ import Meaning from "./Meaning";
 export default function Results({ results }) {
   if (results && results.word) {
     return (
-      <section>
+      <section className="Results-section">
         <div className="Results">
           <h2>{results.word}</h2>
           <h4>{results.phonetic}</h4>
@@ -14,7 +14,7 @@ export default function Results({ results }) {
             return null;
           })}
         </div>
-      </section>
+          </section>
     );
   }
 }

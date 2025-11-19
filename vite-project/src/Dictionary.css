@@ -1,5 +1,32 @@
 .Dictionary section {
-    background-color: #f9f9f9;
-    padding: 30px;
-    border-radius: 10px;
+  background-color: #f9f9f9;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+  margin: 20px 0;
+}
+
+.Dictionary .input-form {
+  width: 100%;
+  padding: 15px;
+  font-size: 18px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+}
+
+.Dictionary .submit-button {
+  margin-top: 15px;
+  padding: 12px 25px;
+  font-size: 18px;
+  background-color: #ccc;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.hint {
+  font-size: 10px;
+  color: #666;
+  margin-top: 10px;
 }
