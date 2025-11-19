@@ -7,11 +7,11 @@
 }
 
 .Dictionary .ResultsSection {
- background: #f9f9f9;
+  background: #f9f9f9;
   padding: 30px;
   margin: 20px 0;
   border-radius: 10px;
-  box-shadow: 5px 5px 5px rgba(0,0,0,0.3);
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
 }
 
 .Dictionary .input-form {
@@ -27,7 +27,7 @@
   padding: 20px;
   margin-top: 20px;
   border-radius: 8px;
-  box-shadow: 3px 3px 5px rgba(0,0,0,0.2);
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
 }
 
 .Dictionary .submit-button {
@@ -46,20 +46,4 @@
   color: #666;
   margin-top: 30px;
   margin-bottom: 0;
-}
-
-/*@media (max-width: 600px) {
-  .Dictionary section {
-    padding: 20px;
-  }
-
-  .Dictionary .input-form {
-    font-size: 16px;
-    padding: 12px;
-  }
-
-  .Dictionary .submit-button {
-    font-size: 16px;
-    padding: 10px 20px;
-  }
 }
