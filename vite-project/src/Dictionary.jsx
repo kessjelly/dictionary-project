@@ -31,6 +31,7 @@ export default function Dictionary() {
           className="input-form"
           value={keyword}
           onChange={handleKeywordChange}
+          placeholder="Type your word here..."
         />
         <input type="submit" className="submit-button" />
         <p className="hint">
