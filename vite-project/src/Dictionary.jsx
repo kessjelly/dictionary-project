@@ -8,8 +8,6 @@ export default function Dictionary() {
   let [results, setResults] = useState({});
 
   function handleResponse(response) {
-    //console.log(response.data);
-    //console.log(response.data.meanings[0].definition);
     setResults(response.data);
   }
 
@@ -27,20 +25,19 @@ export default function Dictionary() {
 
   return (
     <div className="Dictionary">
-      <section>
-        <form onSubmit={search}>
-          <input
-            type="search"
-            className="input-form"
-            value={keyword}
-            onChange={handleKeywordChange}
-          />
-          <input type="submit" className="submit-button" />
-        </form>
-        <div>
-          <p className="hint">Try searching for: sunset, yoga, wine, coding...</p>
-        </div>
-      </section>
+      <form onSubmit={search} className="SearchArea">
+        <input
+          type="search"
+          className="input-form"
+          value={keyword}
+          onChange={handleKeywordChange}
+        />
+        <input type="submit" className="submit-button" />
+        <p className="hint">
+          Try searching for: sunset, yoga, wine, coding...
+        </p>
+      </form>
+
       <Results results={results} />
     </div>
   );

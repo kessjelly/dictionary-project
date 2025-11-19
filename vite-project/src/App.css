@@ -28,13 +28,7 @@ header {
   color: #888;
 }
 
-li {
-  text-align: left;
-  margin-bottom: 0.5rem;
-}
-
-ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
+a {
+  color: #555;
+  margin-bottom: 20px;
 }

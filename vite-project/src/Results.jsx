@@ -3,18 +3,22 @@ import Meaning from "./Meaning";
 export default function Results({ results }) {
   if (results && results.word) {
     return (
-      <section className="Results-section">
-        <div className="Results">
+      <>
+        <div className="ResultsSection">
           <h2>{results.word}</h2>
           <h4>{results.phonetic}</h4>
-          {results.meanings.map((meaning, index) => {
-            if (index === 0) {
-              return <Meaning key={index} meaning={meaning} />;
-            }
-            return null;
-          })}
         </div>
-          </section>
+
+        {results.meanings.map((meaning, index) =>
+          index === 0 ? (
+            <div key={index} className="MeaningContainer">
+              <Meaning meaning={meaning} />
+            </div>
+          ) : null
+        )}
+      </>
     );
   }
+
+  return null;
 }
