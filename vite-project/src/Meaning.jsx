@@ -4,17 +4,19 @@ export default function Meaning({ meaning }) {
   if (!meaning) return null;
 
   return (
-    <div className="Meaning">
-      <h5>{meaning.partOfSpeech}</h5>
-      <p>
-        <strong>Definition:</strong> {meaning.definition}
-      </p>
-      {meaning.example && (
+    <section>
+      <div className="Meaning">
+        <h5>{meaning.partOfSpeech}</h5>
         <p>
-          <strong>Example:</strong> <em>{meaning.example}</em>
+          <strong>Definition:</strong> {meaning.definition}
         </p>
-      )}
-      <Synonyms synonyms={meaning.synonyms}/>
-    </div>
+        {meaning.example && (
+          <p>
+            <strong>Example:</strong> <em>{meaning.example}</em>
+          </p>
+        )}
+        <Synonyms synonyms={meaning.synonyms} />
+      </div>
+    </section>
   );
 }
