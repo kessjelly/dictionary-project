@@ -1,12 +1,18 @@
+import "./Photos.css";
+
 export default function Photos({ photos }) {
   //console.log(photos);
   if (!photos) return null;
 
   return (
-    <div className="Photos">
+    <div className="Photos row mt-5 gy-3">
       {photos.map((photo, index) => (
-        <div key={index}>
-          <img src={photo.src.original} alt={photo.alt} />
+        <div className="col-4" key={index}>
+          <img
+            src={photo.src.landscape}
+            alt={photo.alt}
+            className="img-fluid"
+          />
         </div>
       ))}
     </div>
