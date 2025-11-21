@@ -7,7 +7,7 @@ export default function App() {
   return (
     <div className="container">
       <header>
-        <a href="./App.jsx">
+        <a href="./index.html">
           <img src={defineIcon} alt="Dictionary Icon" className="App-icon" />
         </a>
         <h1>Vocabulary Builder</h1>
