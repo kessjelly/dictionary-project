@@ -1,7 +1,6 @@
 .Photos img {
   gap: 20px;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
-
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
 }
 
 .Photos {
@@ -9,4 +8,5 @@
   border-radius: 10px;
   padding: 20px;
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+  margin: 20px auto;
 }

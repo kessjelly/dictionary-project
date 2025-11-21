@@ -3,15 +3,9 @@
   padding: 30px;
   border-radius: 10px;
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
-  margin: 20px 0;
-}
-
-.Dictionary .ResultsSection {
-  background: #f9f9f9;
-  padding: 30px;
-  margin: 20px 0;
-  border-radius: 10px;
-  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+  margin: 20px auto;
+  width: 600px;
+  max-width: 600px;
 }
 
 .Dictionary .input-form {
@@ -20,14 +14,6 @@
   font-size: 18px;
   border: 2px solid #ccc;
   border-radius: 5px;
-}
-
-.MeaningSection {
-  background: white;
-  padding: 20px;
-  margin-top: 20px;
-  border-radius: 8px;
-  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
 }
 
 .Dictionary .submit-button {
@@ -48,30 +34,10 @@
   margin-bottom: 0;
 }
 
-h2 {
-  font-size: 30px;
-}
-
-h3 {
-  color: #F28785;
-}
-
-.Synonyms {
-  font-size: 0.9rem;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-  justify-content: center;
-}
-
-h5 {
-  font-size: 18px;
-  color: #e66f61;
-}
-
 @media (max-width: 600px) {
   .Dictionary .SearchArea {
     padding: 15px;
+    max-width: 300px;
   }
 
   .Dictionary .input-form,

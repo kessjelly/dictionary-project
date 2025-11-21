@@ -6,7 +6,7 @@ export default function Meaning({ meaning }) {
 
   return (
     <div className="MeaningSection">
-      <h5>{meaning.partOfSpeech}</h5>
+      <h5 className="PartOfSpeech">{meaning.partOfSpeech}</h5>
       <p>
         <strong>Definition:</strong> {meaning.definition}
       </p>

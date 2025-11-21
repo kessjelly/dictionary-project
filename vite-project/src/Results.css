@@ -2,17 +2,22 @@
   background-color: #f9f9f9;
   padding: 30px;
   border-radius: 10px;
-  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
-  margin: 20px 0;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+  margin: 20px auto;
+  max-width: 600px;
 }
 
-li {
-  text-align: left;
-  margin-bottom: 0.5rem;
+h2 {
+  font-size: 40px;
 }
 
-ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
+h3 {
+  color: #f28785;
+}
+
+@media (max-width: 600px) {
+   .ResultsSection {
+    padding: 15px;
+    max-width: 300px;
+  }
 }

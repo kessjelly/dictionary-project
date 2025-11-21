@@ -15,7 +15,7 @@ export default function App() {
       <main>
         <Dictionary />
       </main>
-      <footer className="App-footer">
+      <footer className="App-footer mb-5 ">
         Website designed and coded by{" "}
         <a href="https://github.com/kessjelly">Jessica Kelly Studios</a>.
       </footer>
